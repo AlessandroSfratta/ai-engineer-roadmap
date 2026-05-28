@@ -1,4 +1,4 @@
-# AI Engineer Roadmap - Public Edition
+# AI Engineer Roadmap
 
 > Roadmap personale per costruire competenze da AI Engineer, con focus su software engineering, machine learning, LLM, Hugging Face, RAG, agenti AI, LLMOps, sicurezza e preparazione ai colloqui tecnici.
 >
@@ -61,6 +61,22 @@ La roadmap integra i percorsi del Master Development dentro una sequenza orienta
 | DevOps e ciclo di vita software | Step 10, 22 | CI/CD, monitoraggio, sicurezza |
 | MERN su Vercel | Step 24 | UI/demo opzionale per portfolio |
 
+## Percorsi DataCamp Integrati
+
+DataCamp viene usato come pratica guidata a supporto degli step, senza sostituire progetti e deliverable.
+
+| Percorso DataCamp | Step | Stato pubblico |
+| ----------------- | ---- | -------------- |
+| Introduzione all'API di OpenAI | Step 16 | Pianificato |
+| Prompt Engineering con l'API di OpenAI | Step 17-18 | Pianificato |
+| Introduzione a Hugging Face | Step 15, 15.5 | Pianificato |
+| LLMOps e ciclo di vita delle applicazioni LLM | Step 22 | Pianificato |
+| Sviluppare applicazioni AI con l'API di OpenAI | Step 16, 22, 14 | Pianificato |
+| Embeddings con l'API di OpenAI | Step 19-20 | Pianificato |
+| Database vettoriali per Embeddings con Pinecone | Step 20 | Pianificato |
+| Ingegneria del Software per Data Science in Python | Step 2-4 | Completato, da rivedere |
+| Sviluppare applicazioni LLM con LangChain | Step 20-21 | Pianificato |
+
 ## Aggiornamento Mini-Progetti
 
 Ogni volta che viene creato un esercizio o mini-progetto, aggiornare questa roadmap nello step corrispondente.
@@ -120,7 +136,7 @@ Regole:
 **Badge**
 
 - 🟦 MASTER: Programmazione con Python
-- 🟩 DATACAMP: non specifico
+- 🟩 DATACAMP: Software Engineering per Data Science in Python - completato, da rivedere
 - 🟨 CERT: CERT-SWE - Python programming, data structures, algorithms
 - 🔎 RESEARCH: best practice di struttura progetto e DSA per ML engineer
 
@@ -146,7 +162,7 @@ Regole:
 **Badge**
 
 - 🟦 MASTER: Programmazione con Python
-- 🟩 DATACAMP: Software Engineering e scienza dei dati
+- 🟩 DATACAMP: Software Engineering per Data Science in Python - completato, da rivedere
 - 🟨 CERT: CERT-SWE - OOP, typing, moduli
 - 🔎 RESEARCH: mypy e typing quickstart
 
@@ -173,7 +189,7 @@ Regole:
 **Badge**
 
 - 🟦 MASTER: Coding avanzato con Python
-- 🟩 DATACAMP: Manutenibilita del codice
+- 🟩 DATACAMP: Software Engineering per Data Science in Python - completato, da rivedere
 - 🟨 CERT: CERT-SWE - Testing, coverage, CI/CD
 - 🔎 RESEARCH: GitHub Actions e cache pytest
 
@@ -200,7 +216,7 @@ Regole:
 **Badge**
 
 - 🟦 MASTER: Coding avanzato con Python
-- 🟩 DATACAMP: manutenibilità, se utile
+- 🟩 DATACAMP: manutenibilita + reliability per applicazioni AI
 - 🟨 CERT: consolidamento software engineering
 - 🔎 RESEARCH: timeouts, retries e fail-safe design
 
@@ -228,7 +244,7 @@ Regole:
 **Badge**
 
 - 🟦 MASTER: AI applicata per sviluppatori
-- 🟩 DATACAMP: non specifico
+- 🟩 DATACAMP: Hugging Face Datasets e ideazione LLMOps come supporto
 - 🟨 CERT: CERT-SWE math foundations + CERT-ML
 - 🔎 RESEARCH: leakage examples, 3Blue1Brown, StatQuest
 
@@ -338,7 +354,7 @@ Regole:
 **Badge**
 
 - 🟦 MASTER: sviluppo REST API per Machine Learning
-- 🟩 DATACAMP: preparing AI apps for production
+- 🟩 DATACAMP: sviluppo applicazioni AI con OpenAI API come supporto ai contratti applicativi
 - 🟨 CERT: CERT-SWE - API design e architecture concepts
 - 🔎 RESEARCH: Pydantic validation e API versioning
 
@@ -366,7 +382,7 @@ Regole:
 **Badge**
 
 - 🟦 MASTER: progetto messa in produzione
-- 🟩 DATACAMP: production best practices
+- 🟩 DATACAMP: LLMOps e best practice per applicazioni AI in produzione
 - 🟨 CERT: CERT-SWE - Docker, Cloud, Monitoring
 - 🔎 RESEARCH: Docker FastAPI, Cloud Run, Prometheus/Grafana
 
@@ -393,7 +409,7 @@ Regole:
 **Badge**
 
 - 🟦 MASTER: database relazionali con SQL
-- 🟩 DATACAMP: non specifico
+- 🟩 DATACAMP: applicazioni AI con OpenAI API come supporto su dati testuali sensibili
 - 🟨 CERT: pratica data engineering
 - 🔎 RESEARCH: SQL optimization basics
 
@@ -502,7 +518,7 @@ Regole:
 **Badge**
 
 - 🟦 MASTER: Large Language Models + introduzione Hugging Face Transformers
-- 🟩 DATACAMP: uso API come supporto pratico
+- 🟩 DATACAMP: Introduzione a Hugging Face + LLMOps come supporto pratico
 - 🟨 CERT: CERT-FM - transformer, attention, scaling, post-training
 - 🔎 RESEARCH: Chinchilla, RLHF explained, lm-eval-harness, Hugging Face docs
 
@@ -535,7 +551,7 @@ Regole:
 **Badge**
 
 - 🟦 MASTER: Reti neurali e transformer applicate con Hugging Face
-- 🟩 DATACAMP: non specifico
+- 🟩 DATACAMP: Introduzione a Hugging Face come supporto pratico
 - 🟨 CERT: CERT-FT - PEFT, LoRA, distillation, merging
 - 🔎 RESEARCH: Hugging Face PEFT, mergekit, Axolotl
 
@@ -562,7 +578,7 @@ Regole:
 **Badge**
 
 - 🟦 MASTER: concetti da LLM
-- 🟩 DATACAMP: introduzione API OpenAI
+- 🟩 DATACAMP: Introduzione API OpenAI + sviluppo applicazioni AI
 - 🟨 CERT: consolidamento foundation models hands-on
 - 🔎 RESEARCH: rate limits, retries, idempotency
 
@@ -643,7 +659,7 @@ Regole:
 **Badge**
 
 - 🟦 MASTER: supporto da LLM
-- 🟩 DATACAMP: Embeddings
+- 🟩 DATACAMP: Embeddings con OpenAI API
 - 🟨 CERT: CERT-RAG + CERT-EVAL
 - 🔎 RESEARCH: reciprocal rank fusion e embedding evaluation
 
@@ -671,7 +687,7 @@ Regole:
 **Badge**
 
 - 🟦 MASTER: RAG in LLM o Agentic AI
-- 🟩 DATACAMP: Pinecone
+- 🟩 DATACAMP: Embeddings, Pinecone e LangChain RAG
 - 🟨 CERT: CERT-RAG + CERT-APP
 - 🔎 RESEARCH: chunking, reranking, HyDE
 
@@ -700,7 +716,7 @@ Regole:
 **Badge**
 
 - 🟦 MASTER: Agentic AI
-- 🟩 DATACAMP: LangChain
+- 🟩 DATACAMP: LangChain + concetti LLMOps su chain e agenti
 - 🟨 CERT: CERT-AGT
 - 🔎 RESEARCH: LangGraph, tool error handling, agent benchmarks
 
@@ -738,7 +754,7 @@ Regole:
 **Badge**
 
 - 🟦 MASTER: DevOps e ciclo di vita
-- 🟩 DATACAMP: Preparing AI apps for production + LLMOps
+- 🟩 DATACAMP: LLMOps + sviluppo applicazioni AI con OpenAI API
 - 🟨 CERT: CERT-INF, CERT-APP, CERT-EVAL, CERT-SEC, CERT-FB
 - 🔎 RESEARCH: vLLM, secrets management, monitoring, EU AI Act
 
@@ -822,7 +838,7 @@ Regole:
 
 | Area | Coverage |
 | ---- | -------- |
-| Software Engineering | Python, Git, testing, CI/CD, API design |
+| Software Engineering | Python, Git, testing, CI/CD, API design, DataCamp percorso 8 completato e da rivedere |
 | Math Foundations | Statistics, linear algebra, calculus |
 | Machine Learning | Baselines, metrics, tuning, error analysis |
 | Dataset Engineering | Data quality, annotation, augmentation |

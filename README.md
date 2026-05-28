@@ -1,14 +1,12 @@
-# AI Engineer Roadmap - Public
+# AI Engineer Roadmap
 
 Repository pubblica della roadmap AI Engineer.
 
-Questa repo contiene solo materiale condivisibile pubblicamente e adatto a LinkedIn/portfolio.
+Questa repo contiene solo la versione condivisibile pubblicamente, pensata per LinkedIn e portfolio. La roadmap operativa completa resta nella repository privata.
 
-## File principali
+## Contenuto pubblico
 
-- `roadmap-linkedin.md`: versione consigliata per LinkedIn e portfolio.
-- `road-map-completa.md`: versione pubblica dettagliata della roadmap.
-- `cert-checklist.md`: checklist pubblica delle competenze.
+- `ai-engineer-roadmap/ai-engineer-roadmap.md`: roadmap pubblica per LinkedIn/portfolio.
 
 ## Regola di sincronizzazione
 
@@ -17,7 +15,7 @@ Ogni aggiornamento della roadmap deve essere applicato in entrambe le repository
 - repo pubblica: `ai-engineer-roadmap`
 - repo personale/privata: `ai-engineer-roadmap-private`
 
-La repo pubblica deve contenere solo file condivisibili. La repo privata puo contenere anche note operative, materiale di studio, preparazione colloqui e contenuti personali.
+La repo pubblica deve contenere solo file condivisibili. La repo privata contiene anche note operative, materiale di studio, preparazione colloqui, checklist personali e una copia tracciata di questa cartella pubblica.
 
 ## Ordine standard di commit
 
@@ -51,7 +49,7 @@ Verificare che non siano presenti:
 
 Quando viene completato un esercizio o un mini-progetto:
 
-1. Aprire `roadmap-linkedin.md`.
+1. Aprire `ai-engineer-roadmap/ai-engineer-roadmap.md`.
 2. Trovare lo step collegato all'esercizio.
 3. Aggiungere una voce sotto **Mini-progetti / esercizi**.
 4. Usare il formato: `Nome progetto` - descrizione breve, competenza allenata, output prodotto, link eventuale.
@@ -62,7 +60,7 @@ Questa sezione deve restare pubblica e sintetica: niente note personali, credenz
 ## Comandi consigliati
 
 ```bash
-git add README.md .gitignore cert-checklist.md road-map-completa.md roadmap-linkedin.md
+git add README.md .gitignore ai-engineer-roadmap/ai-engineer-roadmap.md
 git commit -m "Update public roadmap"
 git push
 ```
@@ -71,6 +69,4 @@ Dopo il push pubblico, aggiornare e committare la repo privata.
 
 ## Link
 
-- Versione LinkedIn: [`roadmap-linkedin.md`](./roadmap-linkedin.md)
-- Roadmap dettagliata: [`road-map-completa.md`](./road-map-completa.md)
-- Checklist competenze: [`cert-checklist.md`](./cert-checklist.md)
+- Roadmap pubblica: [`ai-engineer-roadmap/ai-engineer-roadmap.md`](./ai-engineer-roadmap/ai-engineer-roadmap.md)
