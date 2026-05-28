@@ -47,6 +47,18 @@ Verificare che non siano presenti:
 - file `.env`, token, chiavi o credenziali
 - dataset, modelli o output generati
 
+## Aggiornamento esercizi e mini-progetti
+
+Quando viene completato un esercizio o un mini-progetto:
+
+1. Aprire `roadmap-linkedin.md`.
+2. Trovare lo step collegato all'esercizio.
+3. Aggiungere una voce sotto **Mini-progetti / esercizi**.
+4. Usare il formato: `Nome progetto` - descrizione breve, competenza allenata, output prodotto, link eventuale.
+5. Se il mini-progetto diventa portfolio, aggiornare anche la tabella **Portfolio Target**.
+
+Questa sezione deve restare pubblica e sintetica: niente note personali, credenziali, dataset privati o dettagli non condivisibili.
+
 ## Comandi consigliati
 
 ```bash

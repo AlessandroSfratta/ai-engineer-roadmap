@@ -43,6 +43,23 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 | ⏳ | Testing e manutenibilità | Step 4 |
 | 🕒 | Reliability, ML, LLM, RAG, Agentic AI, LLMOps | Step 5-23 |
 
+## Aggiornamento Mini-Progetti
+
+Ogni volta che viene creato un esercizio o mini-progetto, aggiornare questa roadmap nello step corrispondente.
+
+Formato consigliato:
+
+```text
+- `Nome progetto` - descrizione breve: competenza allenata, output prodotto, link repo/demo se disponibile.
+```
+
+Regole:
+
+- inserire il progetto sotto **Mini-progetti / esercizi** dello step corretto
+- usare descrizioni pubbliche, sintetiche e leggibili anche da recruiter o colleghi
+- non inserire note personali, credenziali, dataset privati o contenuti non condivisibili
+- se un esercizio diventa progetto portfolio, aggiornare anche **Portfolio Target**
+
 ---
 
 ## ✅ Step 1 - Setup + Workflow Pro
@@ -64,6 +81,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 - 🔎 RESEARCH: poetry/venv, pre-commit, git flow, bash scripting
 
 **Output:** repository base con setup, README e workflow riproducibile.
+
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 1.
 
 ---
 
@@ -87,6 +108,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 
 **Output:** mini CLI tool con gestione input e logging base.
 
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 2.
+
 ---
 
 ## ✅ Step 3 - OOP + Moduli + Typing
@@ -108,6 +133,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 - 🔎 RESEARCH: mypy e typing quickstart
 
 **Output:** package installabile con struttura pulita.
+
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 3.
 
 ---
 
@@ -132,6 +161,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 
 **Output:** pipeline CI verde con coverage minimo e test riproducibili.
 
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 4.
+
 ---
 
 ## 🕒 Step 5 - Reliability Engineering
@@ -154,6 +187,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 - 🔎 RESEARCH: timeouts, retries e fail-safe design
 
 **Output:** libreria con logging strutturato e comportamento fail-safe.
+
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 5.
 
 ---
 
@@ -179,6 +216,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 
 **Output:** notebook baseline con metriche, seed fisso e mini cheat sheet matematica.
 
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 6.
+
 ---
 
 ## 🕒 Step 7 - ML Improvement + Evaluation
@@ -203,6 +244,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 
 **Output:** primo progetto portfolio ML con confronto baseline -> modello migliorato.
 
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 7.
+
 ---
 
 ## 🕒 Step 7.5 - Dataset Engineering
@@ -226,6 +271,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 
 **Output:** pipeline dataset con quality report automatico.
 
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 7.5.
+
 ---
 
 ## 🕒 Step 8 - Portfolio ML: Language Identification
@@ -248,6 +297,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 - 🔎 RESEARCH: fastText language identification
 
 **Output:** progetto portfolio ML pulito, riproducibile e documentato.
+
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 8.
 
 ---
 
@@ -273,6 +326,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 
 **Output:** API `/predict` e `/health` con test di integrazione.
 
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 9.
+
 ---
 
 ## 🕒 Step 10 - ML in Produzione
@@ -297,6 +354,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 
 **Output:** progetto portfolio dockerizzato con logging e metriche.
 
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 10.
+
 ---
 
 ## 🕒 Step 11 - SQL Fundamentals
@@ -320,6 +381,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 
 **Output:** report SQL con query documentate e riproducibili.
 
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 11.
+
 ---
 
 ## 🕒 Step 12 - Analytics Project: E-commerce Sales
@@ -341,6 +406,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 - 🔎 RESEARCH: data storytelling for analytics
 
 **Output:** report finale con note su dataset e definizione KPI.
+
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 12.
 
 ---
 
@@ -364,6 +433,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 
 **Output:** pipeline ETL con controlli di qualità.
 
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 13.
+
 ---
 
 ## 🕒 Step 14 - Privacy-Aware Text Data Project
@@ -386,6 +459,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 - 🔎 RESEARCH: Presidio e PII handling
 
 **Output:** report con data quality e note privacy, senza PII nel repository.
+
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 14.
 
 ---
 
@@ -412,6 +489,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 
 **Output:** LLM Decision Guide e notebook di benchmark.
 
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 15.
+
 ---
 
 ## 🕒 Step 15.5 - Fine-tuning & Model Adaptation
@@ -436,6 +517,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 
 **Output:** notebook LoRA su task custom con metriche comparative.
 
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 15.5.
+
 ---
 
 ## 🕒 Step 16 - OpenAI API Hands-on
@@ -458,6 +543,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 - 🔎 RESEARCH: rate limits, retries, idempotency
 
 **Output:** mini app LLM con logging e gestione errori.
+
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 16.
 
 ---
 
@@ -483,6 +572,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 
 **Output:** prompt catalog con report A/B e test di sicurezza.
 
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 17.
+
 ---
 
 ## 🕒 Step 18 - Q&A Application Project
@@ -504,6 +597,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 - 🔎 RESEARCH: caching prompts/responses
 
 **Output:** mini repository con demo riproducibile.
+
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 18.
 
 ---
 
@@ -527,6 +624,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 - 🔎 RESEARCH: reciprocal rank fusion e embedding evaluation
 
 **Output:** retriever v1 con metriche base e confronto dense/hybrid.
+
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 19.
 
 ---
 
@@ -552,6 +653,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 
 **Output:** portfolio RAG skeleton con A/B test su strategie di chunking.
 
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 20.
+
 ---
 
 ## 🕒 Step 21 - LangChain, Agents + RAG
@@ -576,6 +681,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 - 🔎 RESEARCH: LangGraph, tool error handling, agent benchmarks
 
 **Output:** agent con due tool, memoria, guardrail e metriche di valutazione.
+
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 21.
 
 ---
 
@@ -611,6 +720,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 
 **Output:** production readiness kit con runbook, dashboard, security checklist, eval plan e inference report.
 
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 22.
+
 ---
 
 ## 🕒 Step 23 - AI/ML Interview Prep
@@ -635,6 +748,10 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 - 🔎 RESEARCH: ML interview, LLM system design, RAG evaluation interview
 
 **Output:** flashcard, gap list, mock interview e risposte system design.
+
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 23.
 
 ---
 
