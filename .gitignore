@@ -1,9 +1,11 @@
 # macOS / editor
 .DS_Store
+Thumbs.db
 *.swp
 *.swo
 .idea/
 .vscode/
+*.log
 
 # Python / notebooks
 __pycache__/
@@ -32,12 +34,20 @@ build/
 tmp/
 temp/
 exports/
+scratch/
+agent-scratch/
+.codex/
+.agent/
 
 # Private-only roadmap material - never publish in this repo
 ai-ml-interview-prep-guide.md
 *interview-prep*.md
 *.private.md
+README-private.md
+private/
+personal/
 personal-notes/
 private-notes/
 notes-private/
 drafts-private/
+study-notes-private/
