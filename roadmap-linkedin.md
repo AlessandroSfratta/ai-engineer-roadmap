@@ -1,6 +1,6 @@
 # AI Engineer Roadmap - Public Edition
 
-> Roadmap personale per costruire competenze da AI Engineer, con focus su software engineering, machine learning, LLM, RAG, agenti AI, LLMOps, sicurezza e preparazione ai colloqui tecnici.
+> Roadmap personale per costruire competenze da AI Engineer, con focus su software engineering, machine learning, LLM, Hugging Face, RAG, agenti AI, LLMOps, sicurezza e preparazione ai colloqui tecnici.
 >
 > Questa versione è pensata per LinkedIn e portfolio: mostra direzione, metodo, competenze e deliverable senza includere note operative personali.
 
@@ -42,6 +42,24 @@ Il percorso non è solo teorico. Ogni fase deve produrre almeno uno tra:
 | ✅ | Software Engineering foundations | Step 1-3 |
 | ⏳ | Testing e manutenibilità | Step 4 |
 | 🕒 | Reliability, ML, LLM, RAG, Agentic AI, LLMOps | Step 5-23 |
+| 🕒 | Portfolio UI opzionale | Step 24 |
+
+## Percorsi Master Integrati
+
+La roadmap integra i percorsi del Master Development dentro una sequenza orientata a progetti.
+
+| Percorso | Step | Ruolo |
+| -------- | ---- | ----- |
+| Coding avanzato con Python | Step 4-5 | Software engineering, testing, logging |
+| Fondamenti di AI per sviluppatori | Step 6-8 | Machine learning e NLP di base |
+| REST API per Machine Learning | Step 9-10 | Serving e produzione di modelli |
+| Database relazionali con SQL | Step 11-12 | Data analysis e reportistica |
+| NoSQL per elaborazione dati | Step 13-14 | Data processing e dati semi-strutturati |
+| Large Language Models | Step 15, 17, 19, 20 | LLM, prompt engineering e RAG |
+| Hugging Face Transformers | Step 15, 15.5 | Foundation models, tokenization, fine-tuning |
+| Agentic AI | Step 21-22 | Agenti, memoria, tool use e deploy |
+| DevOps e ciclo di vita software | Step 10, 22 | CI/CD, monitoraggio, sicurezza |
+| MERN su Vercel | Step 24 | UI/demo opzionale per portfolio |
 
 ## Aggiornamento Mini-Progetti
 
@@ -468,7 +486,7 @@ Regole:
 
 ## 🕒 Step 15 - LLM Fundamentals + Foundation Models
 
-**Focus:** comprendere come funzionano i foundation model e come sceglierli.
+**Focus:** comprendere come funzionano i foundation model, come valutarli e come scegliere tra modelli API, open-weight e toolchain Hugging Face.
 
 **Competenze**
 
@@ -479,13 +497,14 @@ Regole:
 - SFT, RLHF, DPO
 - Costi, performance e licensing
 - Benchmarking
+- Hugging Face model hub e pipeline di base
 
 **Badge**
 
-- 🟦 MASTER: Large Language Models
+- 🟦 MASTER: Large Language Models + introduzione Hugging Face Transformers
 - 🟩 DATACAMP: uso API come supporto pratico
 - 🟨 CERT: CERT-FM - transformer, attention, scaling, post-training
-- 🔎 RESEARCH: Chinchilla, RLHF explained, lm-eval-harness
+- 🔎 RESEARCH: Chinchilla, RLHF explained, lm-eval-harness, Hugging Face docs
 
 **Output:** LLM Decision Guide e notebook di benchmark.
 
@@ -495,14 +514,19 @@ Regole:
 
 ---
 
-## 🕒 Step 15.5 - Fine-tuning & Model Adaptation
+## 🕒 Step 15.5 - Fine-tuning, Hugging Face & Model Adaptation
 
-**Focus:** adattare modelli pre-trained a task specifici.
+**Focus:** adattare modelli pre-trained a task specifici usando Hugging Face, PEFT e valutazione pre/post fine-tuning.
 
 **Competenze**
 
+- Hugging Face Transformers
+- Model hub, trainer e dataset integration
 - PEFT
 - LoRA e QLoRA
+- Tokenizzazione avanzata e custom tokenizers
+- Transformers per NLP e CV
+- Training loop, scheduler, checkpoint ed evaluation loop
 - Distillation
 - Model merging
 - Multi-task fine-tuning
@@ -510,12 +534,12 @@ Regole:
 
 **Badge**
 
-- 🟦 MASTER: progetti avanzati
+- 🟦 MASTER: Reti neurali e transformer applicate con Hugging Face
 - 🟩 DATACAMP: non specifico
 - 🟨 CERT: CERT-FT - PEFT, LoRA, distillation, merging
 - 🔎 RESEARCH: Hugging Face PEFT, mergekit, Axolotl
 
-**Output:** notebook LoRA su task custom con metriche comparative.
+**Output:** notebook Hugging Face/LoRA su task custom con metriche comparative.
 
 **Mini-progetti / esercizi**
 
@@ -734,7 +758,7 @@ Regole:
 
 - ML fundamentals
 - Probabilità e statistica
-- LLM, RAG, fine-tuning e inference
+- LLM, Hugging Face, RAG, fine-tuning e inference
 - Python framework: scikit-learn, pandas, NumPy, PyTorch
 - Data engineering per AI
 - System design AI/LLM
@@ -755,6 +779,34 @@ Regole:
 
 ---
 
+## 🕒 Step 24 - Full-Stack MERN per Demo Portfolio
+
+**Focus:** creare una UI o demo web solo quando aiuta a presentare meglio i progetti AI.
+
+**Competenze**
+
+- HTML, CSS e JavaScript
+- Layout responsive con Grid/Flexbox
+- React per interfacce di progetto
+- Node.js ed Express
+- Persistenza dati
+- Deploy su Vercel
+
+**Badge**
+
+- 🟦 MASTER: Full-Stack Web Development con stack MERN su Vercel
+- 🟩 DATACAMP: non prioritario
+- 🟨 CERT: supporto portfolio/demo, non core AI Engineering
+- 🔎 RESEARCH: Vercel deploy, ML demo UI, portfolio project UX
+
+**Output:** UI portfolio/demo per esporre progetti AI, con README e link deploy.
+
+**Mini-progetti / esercizi**
+
+- _Da aggiornare_: aggiungere qui i mini-progetti completati per Step 24.
+
+---
+
 ## Portfolio Target
 
 | Portfolio | Output | Area |
@@ -764,6 +816,7 @@ Regole:
 | #3 | RAG system with retrieval evaluation | LLM/RAG |
 | #4 | Agent with tools, memory and guardrails | Agentic AI |
 | #5 | Production readiness kit | LLMOps |
+| #6 | Optional web demo / portfolio UI | Full-stack demo |
 
 ## Skills Coverage
 
@@ -774,19 +827,21 @@ Regole:
 | Machine Learning | Baselines, metrics, tuning, error analysis |
 | Dataset Engineering | Data quality, annotation, augmentation |
 | Data Engineering | SQL, NoSQL, ETL |
-| Foundation Models | Transformers, scaling laws, fine-tuning |
+| Foundation Models | Transformers, scaling laws, model selection |
+| Hugging Face Applied | Tokenizers, Transformers, fine-tuning, training loops |
 | Prompt Engineering | Prompt design, testing, tracking, defense |
 | RAG Systems | Embeddings, vector DB, chunking, retrieval eval |
 | Agent Systems | Tools, memory, planning, guardrails |
 | Production AI | Docker, monitoring, LLMOps, inference optimization |
 | Security & Privacy | PII, prompt injection, GDPR, AI ethics |
 | Interview Readiness | ML/LLM/system design communication |
+| Portfolio UI | Optional MERN/Vercel demo layer |
 
 ## LinkedIn Summary
 
 Sto costruendo una roadmap personale da AI Engineer basata su progetti, non solo su teoria.
 
-Il percorso copre software engineering, machine learning, dataset engineering, LLM, fine-tuning, prompt engineering, RAG, agenti AI, LLMOps, sicurezza e preparazione ai colloqui tecnici.
+Il percorso copre software engineering, machine learning, dataset engineering, LLM, Hugging Face, fine-tuning, prompt engineering, RAG, agenti AI, LLMOps, sicurezza e preparazione ai colloqui tecnici.
 
 Repository pubblico:
 https://github.com/AlessandroSfratta/ai-engineer-roadmap
