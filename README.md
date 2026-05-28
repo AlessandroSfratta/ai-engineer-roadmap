@@ -1,72 +1,39 @@
 # AI Engineer Roadmap
 
-Repository pubblica della roadmap AI Engineer.
+Questa repository raccoglie la versione pubblica della mia roadmap da AI Engineer / AI Developer.
 
-Questa repo contiene solo la versione condivisibile pubblicamente, pensata per LinkedIn e portfolio. La roadmap operativa completa resta nella repository privata.
+L'ho creata per trasformare lo studio in un percorso leggibile, misurabile e orientato a progetti. L'obiettivo non e solo seguire corsi, ma costruire progressivamente competenze verificabili: codice, notebook, API, sistemi RAG, agenti AI, checklist di produzione e progetti da portfolio.
 
-## Contenuto pubblico
+La roadmap e pensata anche per essere condivisa su LinkedIn e nel portfolio: mostra direzione, metodo e aree di crescita senza includere note personali, scadenze operative private o materiali non pubblici.
 
-- `ai-engineer-roadmap/ai-engineer-roadmap.md`: roadmap pubblica per LinkedIn/portfolio.
+## Cosa contiene
 
-## Regola di sincronizzazione
+Il file principale e:
 
-Ogni aggiornamento della roadmap deve essere applicato in entrambe le repository:
+- [`ai-engineer-roadmap/ai-engineer-roadmap.md`](./ai-engineer-roadmap/ai-engineer-roadmap.md)
 
-- repo pubblica: `ai-engineer-roadmap`
-- repo personale/privata: `ai-engineer-roadmap-private`
+La roadmap include:
 
-La repo pubblica deve contenere solo file condivisibili. La repo privata contiene anche note operative, materiale di studio, preparazione colloqui, checklist personali e una copia tracciata di questa cartella pubblica.
+- una sequenza di step da software engineering a produzione AI
+- competenze tecniche per ogni fase
+- collegamenti a percorsi Master e DataCamp
+- output pratici attesi per ogni step
+- spazio per mini-progetti ed esercizi completati
+- obiettivi portfolio finali
+- copertura di aree come Machine Learning, LLM, Hugging Face, RAG, Agentic AI, LLMOps, sicurezza e interview readiness
 
-## Ordine standard di commit
+## Come leggerla
 
-Usare sempre questo ordine:
+Ogni step ha uno stato:
 
-1. Aggiornare e controllare la repo pubblica.
-2. Fare commit e push della repo pubblica.
-3. Aggiornare la repo personale/privata.
-4. Fare commit e push della repo personale/privata.
+- `Completata`: competenza gia studiata e validata con un output
+- `In corso`: area attualmente attiva
+- `Pianificata`: area da affrontare nei prossimi step
 
-Questo ordine forza un controllo esplicito di cio che diventa pubblico prima di archiviare la versione completa.
+Ogni step collega studio e pratica. I corsi servono come supporto, ma il valore principale arriva dai deliverable: piccoli progetti, repo documentate, test, API, notebook e report tecnici.
 
-## Checklist prima del commit pubblico
+## Perche e pubblica
 
-Prima di ogni commit su questa repo:
+Pubblicare questa roadmap aiuta a mantenere il percorso chiaro e verificabile. Serve anche a comunicare in modo trasparente il tipo di competenze che sto costruendo: non solo uso di strumenti AI, ma capacita di progettare, valutare, mettere in produzione e spiegare sistemi AI.
 
-```bash
-git status --short
-git diff --check
-git diff --cached --name-only
-```
-
-Verificare che non siano presenti:
-
-- file privati o personali
-- note operative non pensate per il pubblico
-- file `.env`, token, chiavi o credenziali
-- dataset, modelli o output generati
-
-## Aggiornamento esercizi e mini-progetti
-
-Quando viene completato un esercizio o un mini-progetto:
-
-1. Aprire `ai-engineer-roadmap/ai-engineer-roadmap.md`.
-2. Trovare lo step collegato all'esercizio.
-3. Aggiungere una voce sotto **Mini-progetti / esercizi**.
-4. Usare il formato: `Nome progetto` - descrizione breve, competenza allenata, output prodotto, link eventuale.
-5. Se il mini-progetto diventa portfolio, aggiornare anche la tabella **Portfolio Target**.
-
-Questa sezione deve restare pubblica e sintetica: niente note personali, credenziali, dataset privati o dettagli non condivisibili.
-
-## Comandi consigliati
-
-```bash
-git add README.md .gitignore ai-engineer-roadmap/ai-engineer-roadmap.md
-git commit -m "Update public roadmap"
-git push
-```
-
-Dopo il push pubblico, aggiornare e committare la repo privata.
-
-## Link
-
-- Roadmap pubblica: [`ai-engineer-roadmap/ai-engineer-roadmap.md`](./ai-engineer-roadmap/ai-engineer-roadmap.md)
+La versione pubblica resta volutamente sintetica. La roadmap completa, con note operative e materiali personali, e mantenuta in una repository privata separata.
